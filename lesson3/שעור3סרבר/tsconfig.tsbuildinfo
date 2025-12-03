@@ -1,0 +1,1 @@
+{"root":["./course.service.ts/app.ts","./course.service.ts/course.model.ts","./course.service.ts/course.router .ts","./course.service.ts/course.service.ts","./course.service.ts/server.ts","./course.service.ts/weekdays/app.ts","./course.service.ts/weekdays/days.service.ts","./course.service.ts/weekdays/weekdays.router.ts"],"errors":true,"version":"5.9.3"}
