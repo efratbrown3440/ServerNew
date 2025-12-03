@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",        /* ודא שימוש במערכת המודולים של Node.js */
+    "target": "ES2020",          /* מאפשר שימוש בתכונות מודרניות */
+    "esModuleInterop": true,     /* מאפשר ייבוא נוח של ספריות CommonJS */
+    "strict": true,              /* חשוב! מכבה את ה-TS7006 (הטיפוס הנסתר) */
+    "moduleResolution": "node",  /* אומר ל-TS לחפש מודולים כמו Node.js */
+    "typeRoots": [
+      "./node_modules/@types",   /* מגדיר במפורש היכן נמצאים הטיפוסים */
+      "./types"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
